@@ -4,7 +4,14 @@ using namespace std;
 /**
  * 1. We go through the array and we start saving which number is the smallest.
  * 
+ *          EXAMPLE with [7,1,5,3,6,4]
+ *          The smallest number is 1
+ * 
  * 2. Then we save the biggest difference between the smallest number and the current number, to see the biggest profit.
+ * 
+ *          EXAMPLE with [7,1,5,3,6,4]
+ *          The biggest number is 6
+ *          So the biggest difference is 5
  * 
  * TIME o(n)
  * space o(1)
