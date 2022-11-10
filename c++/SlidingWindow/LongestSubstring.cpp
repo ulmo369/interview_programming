@@ -38,6 +38,9 @@ using namespace std;
  *     s[2] = d // d is in the set, we remove the letter of the back pointer
  *             // we move the back pointer one step, back = 1
  * 
+ * O(n) time complexity
+ * O(n) space complexity, due to the set
+ * 
  * @return int 
  */
 
