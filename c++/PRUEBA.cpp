@@ -3,15 +3,12 @@ using namespace std;
 
 int main() {
 
-    map<char, int> Mymap;
+    set<int> Myset;
 
-    Mymap['d'] = 1;
-    Mymap['a'] = 0;
-    Mymap['c'] = 5;
-    Mymap['b'] = 1;
+    
 
-    for(auto it = Mymap.begin(); it != Mymap.end(); it++) {
-        cout << it->first << " " << it->second << endl;
+    for(auto it = Myset.begin(); it != Myset.end(); ++it) {
+
     }
 
 }
