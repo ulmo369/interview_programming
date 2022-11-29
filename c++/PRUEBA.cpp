@@ -3,12 +3,10 @@ using namespace std;
 
 int main() {
 
-    set<int> Myset;
+    vector<int> letters(26);
 
-    
-
-    for(auto it = Myset.begin(); it != Myset.end(); ++it) {
-
+    for(int i = 0; i < 26; i++) {
+        cout << letters[i] << endl;;
     }
 
 }
