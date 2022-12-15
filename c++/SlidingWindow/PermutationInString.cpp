@@ -31,7 +31,7 @@ bool isPermutation(vector<int>& count) {
         count[s2[i - m] - 'a']++; //and we dismark the character that we mark in the other step or the other iteration 
  * }
  * 
- * 6. If we find the permutation we return true
+ * 6. If we find the permutation we return truel,
  * 
  * @return int 
  */
