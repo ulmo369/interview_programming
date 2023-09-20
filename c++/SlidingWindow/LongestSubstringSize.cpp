@@ -45,7 +45,7 @@ using namespace std;
  */
 
 int main (){
-    string s = "dvdf";
+    string s = "abcbcbb";
 
     unordered_set<char> letters;
     int back = 0;
