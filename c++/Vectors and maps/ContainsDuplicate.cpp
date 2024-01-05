@@ -15,7 +15,7 @@ int main ()
 
                 3. if the number were we are is in our set, then we return true
                 4. if not we add the number to the set
-k
+
         4. if at the end we dont find anything then we return false
 
     // O(n) en tiempo, porque recorremos una vez

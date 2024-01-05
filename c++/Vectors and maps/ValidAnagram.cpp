@@ -23,7 +23,7 @@ int main ()
     */
 
     string s = "anagrama";
-    string t = "tptoitut";
+    string t = "bsbqdbeb";
 
     map<char, int> S, T;
 
@@ -37,7 +37,6 @@ int main ()
     }
 
     for(auto it = T.begin(); it != T.end(); it++) {
-
         if(T[it->first] != S[it->first]){
             cout << "false"; //RETURN
             break;
