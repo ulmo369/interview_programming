@@ -5,4 +5,4 @@ while num > 0:
     ans=ans*10+aux
     num=num//10
 
-print(ans)
+print(an

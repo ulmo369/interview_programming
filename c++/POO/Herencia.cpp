@@ -2,7 +2,7 @@
 using namespace std;
 
 class Persona {
-    private:
+    protected:
         string name;
         int edad;
     
@@ -20,7 +20,7 @@ void Persona::mostrarPersona(){
     cout << name << " " << edad << endl;
 }
 
-
+///////////////////////////////////////////
 class Alumno : public Persona{
     private:
         string matricula;

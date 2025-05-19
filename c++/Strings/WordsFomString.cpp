@@ -28,10 +28,10 @@ int main() {
 
     cout << "..................................................." << endl;
     for(auto it = dictonary.begin(); it != dictonary.end(); it++){
-        int pos = texto.find(*it);
+        int pos = texto.find(*it); // Find the word in the string
         cout << "palabra =" << *it << endl;
-        if(pos != string::npos){
-            cout << *it << endl;
+        if(pos != string::npos){ // If the word is found
+            cout << *it << endl; // return the word that was found
         }
     }
 
